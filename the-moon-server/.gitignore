@@ -1,0 +1,9 @@
+
+#Strava personal info
+.env
+
+#test files
+app.js
+
+# dependencies
+/node_modules
