@@ -26,6 +26,7 @@ function getActivities(res) {
     result.reverse();
     console.log('today, you ran: ', sumCalculator(result), result);
 ////////////////////////////////////////////////////////////////////////////////////////////////
+//web-server
 
     app.get('/api/records', (req, res) => {
       res.json(result)
